@@ -1,0 +1,27 @@
+html{
+    background-color: lightgreen;
+}
+
+.loginpage{
+    margin-top:65%;
+}
+.loginuser{
+    margin-left:12%;
+    margin-bottom: 5%;
+}
+
+.loginpass{
+    margin-left:12%;
+    margin-bottom : 5%;
+}
+
+#userid{
+    width:72%;
+}
+
+#savebtn{
+    width: 38%;
+    height: 25px;
+    margin-left: 45%;
+    margin-top: 2%;
+}

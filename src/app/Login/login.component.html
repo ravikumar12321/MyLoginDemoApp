@@ -1,0 +1,9 @@
+
+<div class="loginpage">
+    <div class="loginuser">Login : <input  id = "userid" type="text" [(ngModel)]="username"><br></div>
+    <div class="loginpass">Password : <input type="password" [(ngModel)]="password"><br></div>
+    <div class="loginbtns"><button id="savebtn" (click)="logging()">Login</button></div>
+
+    <div *ngIf=pagestatus>Login successfull</div>
+    <app-welcome *ngIf=pagestatus></app-welcome>
+</div>
